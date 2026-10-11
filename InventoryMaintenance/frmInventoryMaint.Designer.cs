@@ -39,19 +39,18 @@
             // lstItems
             // 
             lstItems.FormattingEnabled = true;
-            lstItems.ItemHeight = 15;
-            lstItems.Location = new Point(27, 55);
-            lstItems.Margin = new Padding(2, 2, 2, 2);
+            lstItems.Location = new Point(31, 73);
+            lstItems.Margin = new Padding(2, 3, 2, 3);
             lstItems.Name = "lstItems";
-            lstItems.Size = new Size(320, 139);
+            lstItems.Size = new Size(365, 184);
             lstItems.TabIndex = 1;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(372, 55);
-            btnAdd.Margin = new Padding(2, 2, 2, 2);
+            btnAdd.Location = new Point(425, 73);
+            btnAdd.Margin = new Padding(2, 3, 2, 3);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(75, 23);
+            btnAdd.Size = new Size(86, 31);
             btnAdd.TabIndex = 1;
             btnAdd.Text = "&Add Item";
             btnAdd.UseVisualStyleBackColor = true;
@@ -59,10 +58,10 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(372, 87);
-            btnDelete.Margin = new Padding(2, 2, 2, 2);
+            btnDelete.Location = new Point(425, 116);
+            btnDelete.Margin = new Padding(2, 3, 2, 3);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
+            btnDelete.Size = new Size(86, 31);
             btnDelete.TabIndex = 2;
             btnDelete.Text = "&Delete Item";
             btnDelete.UseVisualStyleBackColor = true;
@@ -70,10 +69,10 @@
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(372, 119);
-            btnExit.Margin = new Padding(2, 2, 2, 2);
+            btnExit.Location = new Point(425, 159);
+            btnExit.Margin = new Padding(2, 3, 2, 3);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(75, 23);
+            btnExit.Size = new Size(86, 31);
             btnExit.TabIndex = 3;
             btnExit.Text = "E&xit";
             btnExit.UseVisualStyleBackColor = true;
@@ -82,10 +81,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(27, 18);
+            label1.Location = new Point(31, 24);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(39, 15);
+            label1.Size = new Size(48, 20);
             label1.TabIndex = 4;
             label1.Text = "Show:";
             label1.TextAlign = ContentAlignment.MiddleLeft;
@@ -94,29 +93,29 @@
             // 
             cboFilterBy.DropDownStyle = ComboBoxStyle.DropDownList;
             cboFilterBy.FormattingEnabled = true;
-            cboFilterBy.Location = new Point(73, 16);
-            cboFilterBy.Margin = new Padding(2, 2, 2, 2);
+            cboFilterBy.Location = new Point(83, 21);
+            cboFilterBy.Margin = new Padding(2, 3, 2, 3);
             cboFilterBy.Name = "cboFilterBy";
-            cboFilterBy.Size = new Size(129, 23);
+            cboFilterBy.Size = new Size(147, 28);
             cboFilterBy.TabIndex = 0;
             cboFilterBy.SelectedIndexChanged += cboFilterBy_SelectedIndexChanged;
             // 
             // frmInventoryMaint
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = btnExit;
-            ClientSize = new Size(472, 215);
+            ClientSize = new Size(539, 287);
             Controls.Add(cboFilterBy);
             Controls.Add(label1);
             Controls.Add(btnExit);
             Controls.Add(btnDelete);
             Controls.Add(btnAdd);
             Controls.Add(lstItems);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2, 3, 2, 3);
             Name = "frmInventoryMaint";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Inventory Maintenance";
+            Text = "Mohamed Njie's Inventory Maintenance";
             Load += frmInventoryMaint_Load;
             ResumeLayout(false);
             PerformLayout();
